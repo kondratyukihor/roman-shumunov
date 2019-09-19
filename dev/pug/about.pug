@@ -1,0 +1,91 @@
+doctype
+html(lang="ru", prefix="og: http://ogp.me/ns#")
+	head
+		title About
+		include assets/_metas
+		include assets/_links
+	body
+		.site__wrap
+			include ../components/header/header
+			.about
+				.container
+					ul.breadcrumbs(itemscope='' itemtype='https://schema.org/BreadcrumbList')
+						li.breadcrumbs__item(itemscope='' itemtype='https://schema.org/ListItem' itemprop='itemListElement')
+							a.breadcrumbs__link(itemprop='itemprop')
+								span(itemprop='name') Home
+								meta( itemprop='position' content='0')
+						li.breadcrumbs__item(itemscope='' itemtype='https://schema.org/ListItem' itemprop='itemListElement')
+							span(itemprop='name') About
+							meta( itemprop='position' content='1')
+					h2.section-title.about__page-title About
+			.about__section
+				.container-fluid
+					.about__inner
+						.about__img.about__img-footer(style='background-image: url(./images/bg-about__1.jpg)')
+						.about__content.js-space_padding_left
+							.about__content-header
+								.about__img.about__img-header(style='background-image: url(./images/bg-about__1.jpg)')
+								p.about__paragraph Roman Shumunov is an Israeli award winning film director, screenwriter and editor.<br>He is perhaps best known for directing his documentary film "Babylon Dreamers" as well as directing the social drama feature film "Here and Now".<br>Roman graduated Film&Television studies in Sapir Academic College and graduated with honors.
+								p.about__paragraph ​In 2016, when his documentary film "Babylon dreamers" opened the Biggest International Film Festival in Israel - Docaviv, Roman Shumunov was announced as one of the most promising young directors in Israel.
+								p.about__paragraph At the moment he is working on a new impressive movie called "Four steps to death", fascinating story during World War 2 and DocuDrama project - "Munich 50 Years on", the untold story of the biggest terror attack of 20 century.
+								p.about__paragraph Roman works internationally and open with all his heart to new interesting projects.
+			.nominations
+				.container
+					h3.subtitle.nominations__subtitle awards & nominations
+					.nominations__list
+						.row.nominations__row
+							.nominations__col
+								.nominations__item
+									h3.title_level_3.nominations__item-title Here and Now
+									ul.info.info_color_pearl.nominations__item-info
+										li.info__item Fiction feature movie
+										li.info__item 2018
+										li.info__item Director and Script Writer
+									ul.nominations__item-list
+										li.nominations__item-text - First prize on International Jerusalem Film Festival Pitch Point
+										li.nominations__item-text - Best Music Award at Ophir Awards, Israeli Oscar 2018
+										li.nominations__item-text - The Film Nominated for the 2018 Israeli Academy Awards in 3 categories:<br>Best Music, Best sound design and Best Actor.
+										li.nominations__item-text - Official Competition at 35 Jerusalem International Film Festival 2018
+										li.nominations__item-text - Woodstock Film Festival 2018, USA
+										li.nominations__item-text - Santa Barbara International Film Festival 2019
+							.nominations__col
+								.nominations__item
+									h3.title_level_3.nominations__item-title Babylon Dreamers
+									ul.info.info_color_pearl.nominations__item-info
+										li.info__item Documentary movie feature
+										li.info__item 2016
+										li.info__item Director and Cinematographer and Editor
+									ul.nominations__item-list
+										li.nominations__item-text - Best Feature Documentary Film at Budapest International Film Festival 2018
+										li.nominations__item-text - Best Feature Film at Kiev International Film Festival 2017
+										li.nominations__item-text - Audience Award at Moscow International Film Festival 2017
+										li.nominations__item-text - Opening Film at DocAviv International Documentary Film Festival, Israel
+										li.nominations__item-text - Best First Film Award and Promising Director Award, Israel 2016
+										li.nominations__item-text - Best First Film Award: Doc Aviv International Documentary Film Festival - Israel
+										li.nominations__item-text - Best First Film Award at Israeli Documentary Awards 2016
+										li.nominations__item-text - Opening Film: Doc Aviv International Documentary Film Festival - Israel 2016
+										li.nominations__item-text - More than 30 Film Festivals around the world
+							.nominations__col
+								.nominations__item
+									h3.title_level_3.nominations__item-title No one but us
+									ul.info.info_color_pearl.nominations__item-info
+										li.info__item 35 minute fiction
+										li.info__item 2011
+										li.info__item Director and Script Writer
+									ul.nominations__item-list
+										li.nominations__item-text - Best Short Film, Mexico International Film Festival, 2012, Mexico/USA
+										li.nominations__item-text - Best Actor - Haifa International Film Festival 2011, Israel
+										li.nominations__item-text - Best Original Music - South Cinema Festival 2011, Israel
+										li.nominations__item-text - Best Student Film - For the Development of Social Problems, Israel 2012
+										li.nominations__item-text - More than 20 Film Festivals around the world
+							.nominations__col
+								.nominations__item
+									h3.title_level_3.nominations__item-title Eyes
+									ul.info.info_color_pearl.nominations__item-info
+										li.info__item 2015
+										li.info__item Director, Cinematographer and Editor
+									ul.nominations__item-list
+										li.nominations__item-text - Won Best Short Film Award in Viral competition, Israel 2012
+										li.nominations__item-text - Winner of Cinema South Film Festival, short competition, Israel 2012
+			include ../components/footer/footer_dark
+			include assets/_scripts

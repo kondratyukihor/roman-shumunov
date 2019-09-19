@@ -1,0 +1,201 @@
+doctype
+html(lang="ru", prefix="og: http://ogp.me/ns#")
+	head
+		title Portfolio
+		include assets/_metas
+		include assets/_links
+	body
+		.site__wrap
+			include ../components/header/header
+			.portfolio
+				.container
+					ul.breadcrumbs(itemscope='' itemtype='https://schema.org/BreadcrumbList')
+						li.breadcrumbs__item(itemscope='' itemtype='https://schema.org/ListItem' itemprop='itemListElement')
+							a.breadcrumbs__link(itemprop='itemprop')
+								span(itemprop='name') Home
+								meta( itemprop='position' content='0')
+						li.breadcrumbs__item(itemscope='' itemtype='https://schema.org/ListItem' itemprop='itemListElement')
+							span(itemprop='name') Portfolio
+							meta( itemprop='position' content='1')
+					h2.page-title.page-title_mb_sm Portfolio
+					h3.subtitle.portfolio__subtitle filmography
+					.portfolio-slider.portfolio__page-slider
+						.portfolio-item
+							.portfolio-item__inner
+								.portfolio-link.portfolio__page-link
+									img.portfolio-img(src='./images/portfolio.jpg')
+								.portfolio-content.portfolio__page-content
+									h3.title_level_3.portfolio-title here and now
+									ul.info.info_color_gray
+										li.info__item Drama
+										li.info__item 90 min
+										li.info__item 2018
+									.portfolio__rating
+										a.portfolio__rating-link(src='#') IMDB Page
+										a.portfolio__rating-link(src='#') Trailer
+									.portfolio-text.portfolio__slider-text
+										p.portfolio__paragraph A social drama told through the eyes of Andrey, a young immigrant living with her little sister in the slums of the city of Ashdod and struggling to assimilate into Israeli society, who forms a hip-hop band with his three best friends.<br>Surviving day to day, they devote their time to rehearsing for an audition to an upcoming international music festival. They believe that winning the musical competition will allow them to make their voices heard, to influence their harsh reality.
+									.portfolio__slider-list
+										.row.portfolio__slider-row
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+						.portfolio-item
+							.portfolio-item__inner
+								.portfolio-link.portfolio__page-link
+									img.portfolio-img(src='./images/portfolio.jpg')
+								.portfolio-content.portfolio__page-content
+									h3.title_level_3.portfolio-title here and now
+									ul.info.info_color_gray
+										li.info__item Drama
+										li.info__item 90 min
+										li.info__item 2018
+									.portfolio__rating
+										a.portfolio__rating-link(src='#') IMDB Page
+										a.portfolio__rating-link(src='#') Trailer
+									.portfolio-text.portfolio__slider-text
+										p.portfolio__paragraph A social drama told through the eyes of Andrey, a young immigrant living with her little sister in the slums of the city of Ashdod and struggling to assimilate into Israeli society, who forms a hip-hop band with his three best friends.<br>Surviving day to day, they devote their time to rehearsing for an audition to an upcoming international music festival. They believe that winning the musical competition will allow them to make their voices heard, to influence their harsh reality.
+									.portfolio__slider-list
+										.row.portfolio__slider-row
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+											.portfolio__slider-award
+												.awards-item
+													.awards-item__nomination First prise
+													.awards-item__name.awards-item__name_color_light.awards-item__name_fs_small International Jerusalem<br>Film Festival Pitch Point
+													.awards-item__years 2018
+					.portfolio__section-nav
+						.slider-control.slider-control_theme_light.portfolio__slider-control
+							.slider-control__arrow.slider-control__arrow_prev
+								<svg width="6" height="10" viewBox="0 0 6 10" xmlns="http://www.w3.org/2000/svg" class="slider-control__icon">
+									<path d="M5 1L1 5L5 9"/>
+								</svg>
+							.slider-control__dots
+							.slider-control__arrow.slider-control__arrow_next
+								<svg width="6" height="10" viewBox="0 0 6 10" xmlns="http://www.w3.org/2000/svg" class="slider-control__icon">
+									<path d="M5 1L1 5L5 9"/>
+								</svg>
+			.press__section
+				.container
+					h3.subtitle.press__section-title tv series and digital
+					.portfolio__list
+						.portfolio__item
+							.portfolio__item-left
+								.portfolio__item-video.js-video
+									.press__video-play.js-video__btn
+										span.play.play_small
+									.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/3et2t5T0wTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								.portfolio__item-text Shumunov explores the under-the-radar extreme sport of Parkour. Parkour's origins come from military obstacle course training where the person needs to get from one point to another in the fastest most efficient way possible without the assistance of any type of equipment.
+							.portfolio__item-right
+								h4.title_level_3.portfolio__item-title One of Digital series developed and created for "KAN"- Israeli Public Broadcasting Corporation.
+						.portfolio__item
+							.portfolio__item-left
+								.portfolio__item-video.js-video
+									.press__video-play.js-video__btn
+										span.play.play_small
+									.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+										
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/3et2t5T0wTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								.portfolio__item-text In the "Sticker Song" series, we return to the slogans and posters that left a mark on the Israeli history in political and cultural aspects. With the help of a series of experts from the fields of design, history, journalism and more, we recall, analyze and interpret the extent of their influence, at the time and up to present, on the social and political discourse in Israel."
+							.portfolio__item-right
+								h4.title_level_3.portfolio__item-title 1 of 20 Historic TV series called "The Sticker Song" for Israeli National TV channel 1.
+						.portfolio__item
+							.portfolio__item-left
+								.portfolio__item-video.js-video
+									.press__video-play.js-video__btn
+										span.play.play_small
+									.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+								.portfolio__item-text In the "Sticker Song" series, we return to the slogans and posters that left a mark on the Israeli history in political and cultural aspects. With the help of a series of experts from the fields of design, history, journalism and more, we recall, analyze and interpret the extent of their influence, at the time and up to present, on the social and political discourse in Israel."
+							.portfolio__item-right
+								h4.title_level_3.portfolio__item-title PSA for Israeli<br>National TV channel 1.
+			.chanel
+				.container
+					h3.subtitle.press__section-title youtube channel
+					.chanel__list
+						.row.chanel__row
+							.chanel__col
+								.chanel__item
+									.chanel__item-video.js-video
+										.press__video-play.js-video__btn
+											span.play.play_small
+										.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+									.chanel__item-title Here and Now - Trailer (2018)
+							.chanel__col
+								.chanel__item
+									.chanel__item-video.js-video
+										.press__video-play.js-video__btn
+											span.play.play_small
+										.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+									.chanel__item-title Here and Now - Trailer (2018)
+							.chanel__col
+								.chanel__item
+									.chanel__item-video.js-video
+										.press__video-play.js-video__btn
+											span.play.play_small
+										.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+									.chanel__item-title Here and Now - Trailer (2018)
+							.chanel__col
+								.chanel__item
+									.chanel__item-video.js-video
+										.press__video-play.js-video__btn
+											span.play.play_small
+										.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+									.chanel__item-title Here and Now - Trailer (2018)
+							.chanel__col
+								.chanel__item
+									.chanel__item-video.js-video
+										.press__video-play.js-video__btn
+											span.play.play_small
+										.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+									.chanel__item-title Here and Now - Trailer (2018)
+							.chanel__col
+								.chanel__item
+									.chanel__item-video.js-video
+										.press__video-play.js-video__btn
+											span.play.play_small
+										.press__video-el.js-video__link(data-video-link='tLwgk5znimI')
+									.chanel__item-title Here and Now - Trailer (2018)
+			include ../components/footer/footer_light
+			include assets/_scripts

@@ -1,0 +1,135 @@
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+@import '../../node_modules/modal-video/scss/modal-video.scss';
+@import 'assets/jquery.fancybox.min.scss';
+
+.slider-control{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider-control_theme_light .slider-control__icon{
+	stroke: #fff;
+}
+
+.slider-control_theme_light .slick-dots li button{
+	background: #424242;
+}
+
+.slider-control_theme_light .slick-dots li:hover button{
+	background: rgba(255,255,255,.7);
+}
+
+.slider-control_theme_light .slick-dots li.slick-active button{
+	background: #fff;
+}
+
+.slider-control_theme_dark .slider-control__icon{
+	stroke: #000;
+}
+
+.slider-control_theme_dark .slider-control__arrow:hover .slider-control__icon{
+	stroke: #fff;
+}
+
+.slider-control_theme_dark .slick-dots li button{
+	background: #C6C6C6;
+}
+
+.slider-control_theme_dark .slick-dots li:hover button{
+	background: rgba(0,0,0,.5);
+}
+
+.slider-control_theme_dark .slick-dots li.slick-active button{
+	background: #000000;
+}
+
+.slider-control__arrow{
+	width: 40px;
+	min-width: 40px;
+	height: 40px;
+	font-size: 0;
+	text-align: center;
+	border-radius: 50%;
+	transition: text-indent .3s, background .3s;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.slider-control__arrow:hover{
+	background: #1d79e5;
+}
+
+.slider-control__arrow:after{
+	width: 0;
+	height: 100%;
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.slider-control__arrow_prev{
+	
+}
+
+.slider-control__arrow_prev.slick-disabled{
+	text-indent: -50px;
+}
+
+.slider-control__arrow_next{
+	
+}
+
+.slider-control__arrow_next.slick-disabled{
+	text-indent: 50px;
+}
+
+.slider-control__arrow_next .slider-control__icon{
+	transform: scaleX(-1);
+}
+
+.slider-control__icon{
+	display: inline-block;
+	fill: transparent;
+	transition: all .4s;
+	vertical-align: middle;
+}
+
+.slider-control__dots{
+	width: 100%;
+	margin: 0 13px;
+}
+
+.slick-dots{
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+}
+
+.slick-dots li{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	cursor: pointer;
+	position: relative;
+}
+
+.slick-dots li.slick-active{
+	pointer-events: none;
+	cursor: default;
+}
+
+.slick-dots li:hover button{
+}
+
+.slick-dots li button{
+	width: 100%;
+	height: 1px;
+	font-size: 0;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
